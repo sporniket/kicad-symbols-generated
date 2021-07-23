@@ -1,0 +1,6 @@
+
+# generated libs
+*.lib
+
+# tmp folders
+**/tmp/*
