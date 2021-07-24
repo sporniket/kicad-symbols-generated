@@ -11,7 +11,7 @@ tmp:
 
 .PHONY: clean
 clean:
-	rm *.lib
+	rm -f *.lib
 	rm -Rf tmp
 
 # How to make lib files
