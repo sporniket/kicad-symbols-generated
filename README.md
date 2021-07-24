@@ -51,6 +51,7 @@ If the project is already inside a git repository, clone **Sporniket's generated
 	cd .../your/kicad/project/folder
 	git submodule add https://github.com/sporniket/kicad-symbols-generated
 	cd kicad-symbols-generated
+	git submodule update --init
 	make
 
 See the [git page on submodule](https://git-scm.com/book/fr/v2/Utilitaires-Git-Sous-modules) to get at ease with this kind of use.
