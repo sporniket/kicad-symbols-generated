@@ -64,8 +64,8 @@
 |45|A19|B|ADDR||
 |46|A18|B|ADDR||
 |47|A17|B|ADDR||
-|48|A16|B|ADDR||
-|49|6850|O?|MC6800CTL|Acia selection|
+|48|6850|O?|MC6800CTL|Acia selection|
+|49|A16|B|ADDR||
 |50|A15|B|ADDR||
 |51|A14|B|ADDR||
 |52|A13|B|ADDR||
