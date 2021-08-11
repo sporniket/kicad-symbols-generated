@@ -34,8 +34,8 @@
 |15|/HDINT|I|DRVINT|HD interrupt|
 |16|FDINT|I|DRVINT|FD interrupt|
 |17|/DISKINT|O|DRVINT|Interrupt to MFP|
-|18|SNDCS|O?|PSGCTL|Chip Select|
-|19|SNDIR|O?|PSGCTL|Interrupt Request ? "allows to specify the registers of the YM-2149"|
+|18|SNDIR|O?|PSGCTL|Interrupt Request ? "allows to specify the registers of the YM-2149"|
+|19|SNDCS|O?|PSGCTL|Chip Select|
 |20|/RTCWR|O?|RTCCTL|Real Time Clock – WRite|
 |21|/RTCRD|O?|RTCCTL|Real Time Clock – ReaD|
 |22|/RTCCS|O?|RTCCTL|Real Time Clock – Chip Select|
