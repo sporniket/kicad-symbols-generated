@@ -34,7 +34,7 @@
 |16|A10|B|ADDR|Bus address ; input for the MCU and the Blitter as bus subordinate ; output for the Blitter as bus operator|
 |17|A9|B|ADDR|Bus address ; input for the MCU and the Blitter as bus subordinate ; output for the Blitter as bus operator|
 |18|/RAS0|O|RAMCTL|DRAM 'Row Address Select' line|
-|19|EVEN_ODD|I|VIDSYNC|type of frame from the video Shifter : 0 = even, 1= odd|
+|19|/EVEN ODD|I|VIDSYNC|type of frame from the video Shifter : 0 = even, 1= odd|
 |20|CLK|ICLK|CLKSYS|Master clock (32 MHz) from the motherboard|
 |21|/RAS1|O|RAMCTL|DRAM 'Row Address Select' line|
 |22|/CAS0H|O|RAMCTL|DRAM 'Column Address Select High' line|
