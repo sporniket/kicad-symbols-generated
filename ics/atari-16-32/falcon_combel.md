@@ -46,7 +46,7 @@
 |28|GND|GND|||
 |29|A7|B|ADDR|Bus address ; input for the MCU and the Blitter as bus subordinate ; output for the Blitter as bus operator|
 |30|VLD|O|VIDCTL|Video LoaD ; asserted to strobe DRAM data into shifter Input buffer|
-|31|/IACK|O|INTCTL|Interrupt ACKnowledge to CPU (from MFP ?)|
+|31|/IACK|O|INTCTL|Interrupt ACKnowledge to MFP|
 |32|N6850|O|MC6800CTL|ACIA 6850 Chip Select|
 |33|/HINT|I|VIDCTL|Horizontal INTerrupt from the video chip|
 |34|/VINT|I|VIDCTL|Vertical INTerrupt from the video chip|
