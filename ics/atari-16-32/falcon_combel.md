@@ -34,7 +34,7 @@
 |16|A10|B|ADDR|Bus address ; input for the MCU and the Blitter as bus subordinate ; output for the Blitter as bus operator|
 |17|A9|B|ADDR|Bus address ; input for the MCU and the Blitter as bus subordinate ; output for the Blitter as bus operator|
 |18|/RAS0|O|RAMCTL|DRAM 'Row Address Select' line|
-|19|EVEN_ODD|I|VIDCTL|type of frame from the video Shifter : 0 = even, 1= odd|
+|19|EVEN_ODD|I|VIDSYNC|type of frame from the video Shifter : 0 = even, 1= odd|
 |20|CLK|ICLK|CLKSYS|Master clock (32 MHz) from the motherboard|
 |21|/RAS1|O|RAMCTL|DRAM 'Row Address Select' line|
 |22|/CAS0H|O|RAMCTL|DRAM 'Column Address Select High' line|
@@ -45,11 +45,11 @@
 |27|VCC|PWR|||
 |28|GND|GND|||
 |29|A7|B|ADDR|Bus address ; input for the MCU and the Blitter as bus subordinate ; output for the Blitter as bus operator|
-|30|VLD|O|VIDCTL|Video LoaD ; asserted to strobe DRAM data into shifter Input buffer|
+|30|VLD|O|VIDSYNC|Video LoaD ; asserted to strobe DRAM data into shifter Input buffer|
 |31|/IACK|O|INTCTL|Interrupt ACKnowledge to MFP|
 |32|N6850|O|MC6800CTL|ACIA 6850 Chip Select|
-|33|/HINT|I|VIDCTL|Horizontal INTerrupt from the video chip|
-|34|/VINT|I|VIDCTL|Vertical INTerrupt from the video chip|
+|33|/HINT|I|VIDSYNC|Horizontal INTerrupt from the video chip|
+|34|/VINT|I|VIDSYNC|Vertical INTerrupt from the video chip|
 |35|/IDEOR|O|IDECTL|IDE IO Read|
 |36|/IDEOW|O|IDECTL|IDE IO Write|
 |37|IDECS0|O|IDECTL|IDE CS|
@@ -75,7 +75,7 @@
 |57|NC|DNC|||
 |58|NC|DNC|||
 |59|/RESET|I|SYSCTL|Reset from CPU|
-|60|VREQ|I|VIDCTL|Video REQuest signal|
+|60|VREQ|I|VIDSYNC|Video REQuest signal|
 |61|MAD6|O|MADDR|DRAM address bus|
 |62|/CAS1H|O|RAMCTL|DRAM 'Column Address Select High' line|
 |63|A6|B|ADDR|Bus address ; input for the MCU and the Blitter as bus subordinate ; output for the Blitter as bus operator|
@@ -86,7 +86,7 @@
 |68|A4|B|ADDR|Bus address ; input for the MCU and the Blitter as bus subordinate ; output for the Blitter as bus operator|
 |69|D13|B|DATA|Bus data|
 |70|/CAS0L|O|RAMCTL|DRAM 'Column Address Select Low' line|
-|71|VCS|O|VIDCTL|Video Chip Select|
+|71|VCS|O|VIDSYNC|Video Chip Select|
 |72|EINT7|I|EXTINT|External interrupts|
 |73|/PAD0Y|I|JOYPAD|Paddle active|
 |74|RAMH|O|RAMCTL|Address select control to the video shifter to select the Low (0) or High (1) DRAM word in 16 bit video bus|
