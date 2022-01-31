@@ -207,8 +207,8 @@
 |189|MAD9|O|MADDR|DRAM address bus|
 |190|/VPA|O|MC6800CTL|Valid Peripheral Address, send to CPU, for addressing 6800 devices like the ACIA|
 |191|CPUCLK|OCLK|CLKSYS|16MHz clock output ; for the CPU|
-|192|CLK8|OCLK|CLKSYS|4MHz clock output|
-|193|CLK4|OCLK|CLKSYS|8MHz clock output|
+|192|CLK8|OCLK|CLKSYS|8MHz clock output|
+|193|CLK4|OCLK|CLKSYS|4MHz clock output|
 |194|500KHZ|OCLK|CLKSYS|0.5MHz clock output _fixed by DML_|
 |195|GND|GND|||
 |196|VCC|PWR|||
