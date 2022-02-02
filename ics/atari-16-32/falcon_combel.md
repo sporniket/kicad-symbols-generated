@@ -88,7 +88,7 @@
 |70|/CAS0L|O|RAMCTL|DRAM 'Column Address Select Low' line|
 |71|VCS|O|VIDSYNC|Video Chip Select|
 |72|EINT7|I|EXTINT|External interrupts|
-|73|/PAD0Y|I|JOYPAD|Paddle active|
+|73|/PAD1X|I|JOYPAD|PADdle 1 X|
 |74|RAMH|O|RAMCTL|Address select control to the video shifter to select the Low (0) or High (1) DRAM word in 16 bit video bus|
 |75|/RTCCS|O|RTCCTL|Real Time Clock Chip Select|
 |76|/RTCAS|O|RTCCTL|Real Time Clock Address Strobe|
@@ -126,7 +126,7 @@
 |108|NC|DNC|||
 |109|NC|DNC|||
 |110|NC|DNC|||
-|111|/PAD1Y|I|JOYPAD|Paddle active|
+|111|/PAD1Y|I|JOYPAD|PADdle 1 Y|
 |112|/BINT|O|BLTCTL|Blitter INTerrupt (? from the STE GSTMCU), not connected|
 |113|/FPUCS|O|FPUCTL|FPU Chip Select|
 |114|MAD1|O|MADDR|DRAM address bus|
@@ -140,7 +140,7 @@
 |122|D0|B|DATA|Bus data|
 |123|FC2|B|FNSEL|Function Code, input for MCU and the Blitter as bus subordinate ; output for the Blitter as bus operator|
 |124|/BGI|I|BUSARB|Bus Grant, asserted by the CPU in response of BR, when the CPU is ready to release the bus|
-|125|/PAD1X|I|JOYPAD|Paddle active|
+|125|/PAD0Y|I|JOYPAD|PADdle 0 Y|
 |126|A22|B|ADDR|Bus address ; input for the MCU and the Blitter as bus subordinate ; output for the Blitter as bus operator|
 |127|D1|B|DATA|Bus data|
 |128|A21|B|ADDR|Bus address ; input for the MCU and the Blitter as bus subordinate ; output for the Blitter as bus operator|
@@ -153,7 +153,7 @@
 |135|A20|B|ADDR|Bus address ; input for the MCU and the Blitter as bus subordinate ; output for the Blitter as bus operator|
 |136|/PADRST|O|JOYPAD|PADdle ReSeT|
 |137|/BUTTON|O|JOYPAD|fire BUTTON read enable|
-|138|/PAD0X|I|JOYPAD|Paddle active|
+|138|/PAD0X|I|JOYPAD|PADdle 0 X|
 |139|TXD|I|KBDCTL|Data transmitted to keyboard|
 |140|/JOYWE|O|JOYPAD|JOYstick Write Enable (High ?) enable line|
 |141|FC0|B|FNSEL|Function Code, input for MCU and the Blitter as bus subordinate ; output for the Blitter as bus operator|
