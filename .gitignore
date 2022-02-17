@@ -4,3 +4,6 @@
 
 # tmp folders
 **/tmp/*
+
+# archives
+*.zip

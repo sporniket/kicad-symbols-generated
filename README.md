@@ -21,6 +21,18 @@ Content
 
 **Sporniket's generated symbols for Kicad** is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
+### Release notes
+
+#### v1.1.0
+
+* Generate a 'socket' symbol (all the pins are passive) with physical layout.
+* The 'Shifter' of the Atari STF, as used to create a [RGB-565 colorspace for the Atari ST](https://github.com/sporniket/atari-st-mod-rgb565-experiment)
+* The 'Combel' of the Atari Falcon030.
+
+#### v1.0.0
+
+* The set of symbols as used to convert the [STe schematics](https://github.com/sporniket/kicad-conversions--atari-ste-motherboard--c300780-001).
+
 ## 2. What should you know before using **Sporniket's generated symbols for Kicad** ?
 
 **Sporniket's generated symbols for Kicad** relies on :
