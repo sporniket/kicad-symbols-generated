@@ -23,6 +23,14 @@ Content
 
 ### Release notes
 
+#### v1.2.0
+
+Added the following commons ICs :
+
+* #7 : 74LS11
+* #8 : 74LS20
+* CD4015
+
 #### v1.1.0
 
 * Generate a 'socket' symbol (all the pins are passive) with physical layout.
