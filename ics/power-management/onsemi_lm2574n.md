@@ -20,13 +20,13 @@
 |3|/ON OFF|I|CTL|Enable|
 |4|PGND|GND||Power Ground|
 |5|VIN|PWR||Input Voltage|
-|6|NC|DNC|||
-|7|VOUT|O||Output Voltage|
-|8|NC|DNC|||
+|6|NC|I|HTSNK|Solder to PCB copper pour for thermal dissipation|
+|7|VOUT|PWR||Output Voltage|
+|8|NC|I|HTSNK|Solder to PCB copper pour for thermal dissipation|
 
 ### Pin groups
 
 |Group id|Rank|Comment|
 |---|---|---|
 |CTL|10|Control|
-|OUT|20|Output|
+|HTSNK|20|Serves as thermal path|

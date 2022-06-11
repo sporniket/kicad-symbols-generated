@@ -16,7 +16,7 @@
 |Pin|Name|Pin Type|Group|Comment|
 |---|---|---|---|---|
 |1|VBUSG|O|CTL|Connect to the gate of external NMOS, in control of the power rail|
-|2|VIN|PWR||Power inputn, apply 1uF capacitor to GND, connect to the Drain of the external NMOS.|
+|2|VIN|PWR||Power input, apply 1uF capacitor to GND, connect to the Drain of the external NMOS.|
 |3|NC|DNC|||
 |4|NC|DNC|||
 |5|GND|GND|||
@@ -30,7 +30,7 @@
 |13|CC1|I|USB|Connect to CC1 of USB Type-C port|
 |14|NC|DNC|||
 |15|NC|DNC|||
-|16|VBUS|O|CTL|Connect to the source of external NMOS|
+|16|VBUS|I|CTL|Connect to the source of external NMOS|
 
 ### Pin groups
 
