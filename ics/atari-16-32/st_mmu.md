@@ -35,7 +35,7 @@
 |14|A19|B|ADDR|Address bus|
 |15|A20|B|ADDR|Address bus|
 |16|A21|B|ADDR|Address bus|
-|17|/LDS|O|BUSARB|Lower byte data strobe|
+|17|/LDS|O|BUSCTL|Lower byte data strobe|
 |18|/RAS1|O|RAMCTL|Row address strobe bank 1|
 |19|4MHZ|OCLK|CLKSYS|4 MHz clock (input clock ÷ 4)|
 |20|8MHZ|OCLK|CLKSYS|8 MHz clock (input clock ÷ 2)|
@@ -44,15 +44,15 @@
 |23|/WE|O|RAMCTL|Write enable to RAM|
 |24|/DMA|I|CTL|Flag a DMA operation|
 |25|/WDAT|O|BSISLCTL|Bus isolation write data signal|
-|26|/UDS|O|BUSARB|Upper byte data strobe|
+|26|/UDS|O|BUSCTL|Upper byte data strobe|
 |27|GND|GND|||
 |28|/CMPCS|O|SHIFTER|Shifter Chip Select|
 |29|/DCYC|O|SHIFTER|Dcyc signal|
 |30|/RDAT|O|BSISLCTL|Bus isolation read data signal|
 |31|/DEV|I|CTL|DE from GLUE|
-|32|/AS|O|BUSARB|Address strobe|
+|32|/AS|O|BUSCTL|Address strobe|
 |33|/RAM|I|CTL|Ram signal|
-|34|R /W|O|BUSARB|Read or write data|
+|34|R /W|O|BUSCTL|Read or write data|
 |35|A15|B|ADDR|Address bus|
 |36|A14|B|ADDR|Address bus|
 |37|A13|B|ADDR|Address bus|
@@ -71,7 +71,7 @@
 |50|A1|B|ADDR|Address bus|
 |51|VSYNC|O|CTL|Vsync signal|
 |52|DE|O|SHIFTER|Display enable|
-|53|/DTACK|O|BUSARB|Data Acknowledge|
+|53|/DTACK|O|BUSCTL|Data Acknowledge|
 |54|MAD5|O|MADDR|Memory address bus|
 |55|MAD4|O|MADDR|Memory address bus|
 |56|MAD3|O|MADDR|Memory address bus|
@@ -97,7 +97,7 @@
 |CTL|20|Control signals|
 |RAMCTL|30|Control of the RAM bus|
 |SHIFTER|40|Control of the Shifter|
-|BUSARB|50|68k Bus arbitration|
+|BUSCTL|50|68k Bus control|
 |BSISLCTL|60|68k Bus isolator control|
 |ADDR|70|Address of the 68k bus|
 |DATA|80|Data of the 68k bus|
