@@ -23,6 +23,20 @@ Content
 
 ### Release notes
 
+### What's new in v1.3.0
+
+* **Fixed bugs in generated single unit functionnal symbols** (missing pins !!)
+* Resolves #2 : Atari ST —  MMU (requires proofreading)
+* Resolves #20 : TMS4416
+* Resolves #38 : PAL20L8, PAL20R4, PAL20R6, PAL20R8
+* add aliases to 74x32 and 74x126
+* Resolves #10 : 74LS32
+* Resolves #11 : 74LS126
+* Resolves #27 : Atari MegaSTE U002
+* Resolves #26 : PAL22V10, GAL22V10
+* Resolves #25 : PAL16L8, PAL16R4, PAL16R6, PAL16R8
+* added power management ics : onsemi LM2574N, injoinic IP2721
+
 #### v1.2.0
 
 Added the following commons ICs :
