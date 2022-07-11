@@ -23,6 +23,20 @@ Content
 
 ### Release notes
 
+### What's new in v1.4.0
+
+**Fixes**
+
+* Fixes #41 : [BUG] ST MMU directionnality of some signals
+* ST MMU : renaming group BUSARB into BUSCTL
+* Fixed : footprint of MC68000 (900 mils wide instead of 600 mils)
+
+
+**New symbols**
+
+* Resolves #40 : DRAM 256K×1
+* Resolves #3 : Atari ST —  GLUE
+
 ### What's new in v1.3.0
 
 * **Fixed bugs in generated single unit functionnal symbols** (missing pins !!)
