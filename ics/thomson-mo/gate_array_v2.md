@@ -70,8 +70,8 @@
 |54|/CS_COL|I|MCTL|Chip Select for "color" RAM|
 |55|/CS_PT|I|MCTL|Chip Select for "point" RAM|
 |56|/CS_EXT|I|MCTL|Chip Select for extension RAM|
-|57|SYCL1|I|LTCTL|Reset line and frame counter, for synchronization with external video signal|
-|58|SYCL2|I|UNKNOWN|unknown use, grounded|
+|57|SYCL1|I|UNKNOWN|unknown use, grounded|
+|58|SYCL2|I|LTCTL|Reset line and frame counter, for synchronization with external video signal|
 |59|/COLTOUR|GND|||
 |60|E_EXT|I|UNKNOWN|unknown use, grounded|
 |61|/SUPLT|O|LTCTL|Suppress line and frame signal|
