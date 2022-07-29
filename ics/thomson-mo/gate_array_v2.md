@@ -49,7 +49,7 @@
 |33|D0|B|DATA|Databus data|
 |34|VCC|PWR|||
 |35|GND|GND|||
-|36|NC|DNC||unknown, not present in schematics, do not connect|
+|36|PAL /NTSC|DNC||NTSC mode (525 lines) when grounded, PAL/SECAM mode (625 lines) when high|
 |37|/CKLP|I|LPEN|Pulse generated using the light pen sensor|
 |38|/ITLP|O|LPEN|Interrupt request for the light pen|
 |39|R /W|I|BUSARB||
