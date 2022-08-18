@@ -1,5 +1,7 @@
 # Sporniket's generated symbols for Kicad
 
+> [WARNING] The version 1 of the collection is being deprecated starting from v1.5.0. There will one more release after that.
+
 > [WARNING] Please read carefully this note before using this project. It contains important facts.
 
 Content
