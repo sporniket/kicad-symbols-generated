@@ -23,6 +23,18 @@ Content
 
 ### Release notes
 
+### What's new in v1.5.0
+
+* Resolves #24 : gate array thomson mo5 v1 (plcc68)
+* Resolves #21 : MC6809
+* MCP-101D supervisory reset controller
+* MCP-100D supervisory reset controller
+* Resolves #15 : 74LS157
+* Resolves #14 : 74LS156
+* Resolves #12 : 74LS151
+* Resolves #23 : HN613128P
+* Resolves #9 : 74LS30
+
 ### What's new in v1.4.0
 
 **Fixes**
