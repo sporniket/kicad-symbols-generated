@@ -18,7 +18,7 @@
 |1|CLK_IN|ICLK|SYSCLK|CMOS Shmitt trigger to be used with an external CMOS logic level clock.|
 |2|CLK_R|I|SYSCLK|TTL logic level clock input when in split supply operation (±2.5V to ±7V) with L.Sh tied to ground|
 |3|L.Sh|I|CTL|Level Shift, select the logic level treshold for the clock.|
-|4|V-|I|CTL|Negative supply pin|
+|4|V-|PWR|CTL|Negative supply pin|
 |5|FILTER_OUT|O|IO|Output of the low-pass filter|
 |6|AGND|GND||Analog ground|
 |7|V+|PWR||Positive supply pin|
@@ -29,5 +29,5 @@
 |Group id|Rank|Comment|
 |---|---|---|
 |SYSCLK|10|CLocking system|
-|SYSCTL|20|System control|
+|CTL|20|System control|
 |IO|20|Input/output of the filter|

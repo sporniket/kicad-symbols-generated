@@ -26,8 +26,8 @@
 |9|NC|DNC|||
 |10|NC|DNC|||
 |11|SEL|I|CTL|Select output voltage : Grounded = 5V ; Floating = level 1 ; High = level 2 |
-|12|CC2|I|USB|Connect to CC2 of USB Type-C port|
-|13|CC1|I|USB|Connect to CC1 of USB Type-C port|
+|12|CC2|I|USBCC|Connect to CC2 of USB Type-C port|
+|13|CC1|I|USBCC|Connect to CC1 of USB Type-C port|
 |14|NC|DNC|||
 |15|NC|DNC|||
 |16|VBUS|I|CTL|Connect to the source of external NMOS|
@@ -37,4 +37,5 @@
 |Group id|Rank|Comment|
 |---|---|---|
 |CTL|10|Control|
-|USB|20|USB port|
+|USBCC|20|USB Configuration Channel pins of USB-C|
+

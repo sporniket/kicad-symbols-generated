@@ -16,8 +16,8 @@
 
 |Pin|Name|Pin Type|Group|Comment|
 |---|---|---|---|---|
-|1|XTL0|I|SYSCLK|Connection to external cristal|
-|2|XTL1|I|SYSCLK|Connection to external cristal|
+|1|XTL0|I|CLKSYS|Connection to external cristal|
+|2|XTL1|I|CLKSYS|Connection to external cristal|
 |3|D0|B|DATA|Data bus|
 |4|D1|B|DATA|Data bus|
 |5|D2|B|DATA|Data bus|
@@ -54,14 +54,14 @@
 |36|A1|I|ADDR|Address bus|
 |37|DE|I|SYSCTL|Display Enabled signal|
 |38|/CS|I|SYSCTL|Chip Select signal|
-|39|16MHZ|O|SYSCLK|16 MHz clock signal for the MCU|
+|39|16MHZ|O|CLKSYS|16 MHz clock signal for the MCU|
 |40|VCC|PWR|||
 
 ### Pin groups
 
 |Group id|Rank|Comment|
 |---|---|---|
-|CLKCTL|10|Clocking system|
+|CLKSYS|10|Clocking system|
 |SYSCTL|20|System control|
 |ADDR|30|Address bus|
 |DATA|40|Main data bus|
