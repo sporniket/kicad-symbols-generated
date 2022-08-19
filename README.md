@@ -23,6 +23,19 @@ Content
 
 ### Release notes
 
+### What's new in v2.0.0
+
+> Breaking version with 1.x, not recommended for existing designs
+
+* Migration to my revamped script, now a proper python module with command line interface : [Sporniket's electronic symbol generator for CAD](https://pypi.org/project/electronic-symbol-generator-for-cad-by-sporniket/)
+* Fixed some bugs on some datasheets following the migration :
+  * ics/atari-16-32/st_shifter.md : fixed group name 'CLKSYS'
+  * ics/atari-16-32/ste_gstmcu.md : empty group 'SBSCTL'
+  * ics/atari-16-32/ste_gstshifter.md : fixed group name 'CLKSYS'
+  * ics/commons/dac0802.md : fixed type of pin 3 as 'PWR'
+  * ics/commons/mf4-dip8.md : fixed type of pin 4 as 'PWR'
+  * ics/power-management/injoinic_ip2721.md : renamed group name 'USBCC'
+
 ### What's new in v1.5.0
 
 * Resolves #24 : gate array thomson mo5 v1 (plcc68)
