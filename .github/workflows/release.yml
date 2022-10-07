@@ -39,8 +39,13 @@ jobs:
       with:
         draft: true
         prerelease: false
-        allowUpdates: true
-        updateOnlyUnreleased: true
-        artifacts: ./*-${{ steps.suffix.outputs.version }}.zip
         release_name: Version ${{ steps.suffix.outputs.version }}
         tag_name: ${{ github.ref }}
+
+    - name: upload linux artifact
+      uses: actions/upload-release-asset@v1
+      with:
+        upload_url: ${{ steps.create_release.outputs.upload_url }}
+        asset_path: ./kicad-symbols-generated-${{ steps.suffix.outputs.version }}.zip
+        asset_name: ./kicad-symbols-generated-${{ steps.suffix.outputs.version }}.zip
+        asset_content_type: application/zip
