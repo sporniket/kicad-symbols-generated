@@ -1,0 +1,47 @@
+name: Prepare a release
+
+on:
+  - push:
+    tags:
+      - '*'
+  - workflow_dispatch
+
+jobs:
+  release:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v3
+      with:
+        python-version: 3.8.10
+    
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        python -m pip install electronic-package-descriptor-by-sporniket
+        python -m pip install electronic-symbol-generator-for-cad-by-sporniket
+    
+    - name: Validate
+      run: make all
+      
+    - name: Version suffix
+      run: echo "::set-output name=version::$([ "workflow_dispatch" -eq "${GITHUB_EVENT_NAME}" ] && echo "$(date -Iseconds)" || echo "${{ github.ref_name }}")"
+      id: suffix
+    
+    - name : Pack
+      run: ./build-release.bash ${{ steps.suffix.outputs.version }}
+  
+    - name: Init release
+      uses: actions/create-release@v1
+      id: create_release
+      with:
+        draft: true
+        prerelease: false
+        allowUpdates: true
+        updateOnlyUnreleased: true
+        artifacts: ./*-${{ steps.suffix.outputs.version }}.zip
+        release_name: Version ${{ steps.suffix.outputs.version }}
+        tag_name: ${{ github.ref }}
