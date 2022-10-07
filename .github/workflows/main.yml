@@ -16,7 +16,7 @@ jobs:
     - name: Set up Python 3.8
       uses: actions/setup-python@v3
       with:
-        python-version: 3.8
+        python-version: 3.8.10
     
     - name: Install dependencies
       run: |
@@ -25,4 +25,4 @@ jobs:
         python -m pip install electronic-symbol-generator-for-cad-by-sporniket
     
     - name: Validate
-      run: make
+      run: make all
