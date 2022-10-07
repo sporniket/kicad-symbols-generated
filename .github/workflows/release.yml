@@ -1,10 +1,9 @@
 name: Prepare a release
 
 on:
-  - push:
+  push:
     tags:
       - '*'
-  - workflow_dispatch:
 
 jobs:
   release:
@@ -28,7 +27,7 @@ jobs:
       run: make all
       
     - name: Version suffix
-      run: echo "::set-output name=version::$([ "workflow_dispatch" -eq "${GITHUB_EVENT_NAME}" ] && echo "$(date -Iseconds)" || echo "${{ github.ref_name }}")"
+      run: echo "::set-output name=version::$(echo "${{ github.ref_name }}" | cut -c 2-)"
       id: suffix
     
     - name : Pack
