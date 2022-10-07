@@ -41,6 +41,8 @@ jobs:
         prerelease: false
         release_name: Version ${{ steps.suffix.outputs.version }}
         tag_name: ${{ github.ref }}
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
 
     - name: upload linux artifact
       uses: actions/upload-release-asset@v1
@@ -49,3 +51,5 @@ jobs:
         asset_path: ./kicad-symbols-generated-${{ steps.suffix.outputs.version }}.zip
         asset_name: ./kicad-symbols-generated-${{ steps.suffix.outputs.version }}.zip
         asset_content_type: application/zip
+      env:
+        GITHUB_TOKEN: ${{ github.token }}
