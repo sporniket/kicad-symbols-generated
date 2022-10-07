@@ -38,4 +38,4 @@
 |---|---|---|
 |CTL|10|Control|
 |USBCC|20|USB Configuration Channel pins of USB-C|
-
+|TST|30|Reserved|
