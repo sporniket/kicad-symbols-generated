@@ -171,7 +171,6 @@
 |SYSCTL|20|System control signals|
 |BUSARB|30|Bus arbitration control|
 |BUSCTL|40|Asynchronous bus control|
-|SBSCTL|45|Synchronous Bus control|
 |GLUE2MMU|46|GLUE to MMU signals|
 |DRVINT|50|Drives interrupt signals|
 |INTCTL|60|MFP Interruption control|

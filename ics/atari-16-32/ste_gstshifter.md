@@ -108,7 +108,7 @@
 
 |Group id|Rank|Comment|
 |---|---|---|
-|CLKCTL|10|Clocking system|
+|CLKSYS|10|Clocking system|
 |SYSCTL|20|System control|
 |SNDCTL|30|Sound control|
 |MICROWIRE|40|Microwire protocol|
