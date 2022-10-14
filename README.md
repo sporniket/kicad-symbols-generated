@@ -23,7 +23,31 @@ Content
 
 ### Release notes
 
-### What's new in v2.0.0
+#### v2.1.0
+
+New symbols :
+
+* Resolves #16 : 74LS165
+* Resolves #17 : 74LS173
+* Resolves #18 : 74LS221
+* Resolves #19 : LM311
+* Resolves #22 : N82S123
+* Resolves #46 : nxp pca9535
+* Resolves #51 : 512kb (64k × 8bits) ROM
+
+Fixes :
+
+* tms4416 : tweaks pdf to actual url
+* 74x165 : Fixed pin label
+
+#### v2.0.1
+
+Fixes :
+
+* ics/atari-16-32/falcon_combel -- Fixed pins attribution : PAD[01][XY]
+* ics/power-management/injoinic_ip2721 -- missing group
+
+#### v2.0.0
 
 > Breaking version with 1.x, not recommended for existing designs
 
@@ -36,7 +60,7 @@ Content
   * ics/commons/mf4-dip8.md : fixed type of pin 4 as 'PWR'
   * ics/power-management/injoinic_ip2721.md : renamed group name 'USBCC'
 
-### What's new in v1.5.0
+#### What's new in v1.5.0
 
 * Resolves #24 : gate array thomson mo5 v1 (plcc68)
 * Resolves #21 : MC6809
@@ -48,7 +72,7 @@ Content
 * Resolves #23 : HN613128P
 * Resolves #9 : 74LS30
 
-### What's new in v1.4.0
+#### What's new in v1.4.0
 
 **Fixes**
 
@@ -62,7 +86,7 @@ Content
 * Resolves #40 : DRAM 256K×1
 * Resolves #3 : Atari ST —  GLUE
 
-### What's new in v1.3.0
+#### What's new in v1.3.0
 
 * **Fixed bugs in generated single unit functionnal symbols** (missing pins !!)
 * Resolves #2 : Atari ST —  MMU (requires proofreading)
