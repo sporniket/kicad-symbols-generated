@@ -23,6 +23,10 @@ Content
 
 ### Release notes
 
+#### v2.1.1
+
+* Fixes #18 : [bugs] Atari ST GLUE description has errors
+
 #### v2.1.0
 
 New symbols :
