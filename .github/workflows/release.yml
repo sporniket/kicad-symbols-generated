@@ -27,11 +27,11 @@ jobs:
       run: make all
       
     - name: Version suffix
-      run: echo "name=version::$(echo "${{ github.ref_name }}" | cut -c 2-)" >> $GITHUB_OUTPUT
+      run: echo "name=version::$(echo "${{ github.ref_name }}" | cut -c 2-)" >> $GITHUB_ENV
       id: suffix
     
     - name : Pack
-      run: ./build-release.bash ${{ steps.suffix.outputs.version }}
+      run: ./build-release.bash ${{ env.version }}
   
     - name: Init release
       uses: actions/create-release@v1
@@ -39,7 +39,7 @@ jobs:
       with:
         draft: true
         prerelease: false
-        release_name: Version ${{ steps.suffix.outputs.version }}
+        release_name: Version ${{ env.version }}
         tag_name: ${{ github.ref }}
       env:
         GITHUB_TOKEN: ${{ github.token }}
@@ -48,8 +48,8 @@ jobs:
       uses: actions/upload-release-asset@v1
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./kicad-symbols-generated-${{ steps.suffix.outputs.version }}.zip
-        asset_name: kicad-symbols-generated-${{ steps.suffix.outputs.version }}.zip
+        asset_path: ./kicad-symbols-generated-${{ env.version }}.zip
+        asset_name: kicad-symbols-generated-${{ env.version }}.zip
         asset_content_type: application/zip
       env:
         GITHUB_TOKEN: ${{ github.token }}
