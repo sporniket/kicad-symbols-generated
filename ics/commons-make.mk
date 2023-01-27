@@ -1,7 +1,5 @@
 SRC ::= $(wildcard *.md)
 OBJECTS ::= $(SRC:.md=.lib)
-# Tool path, starting from subfolder perspectives
-TOOL_PATH ::= ../../kicad-scripts/symbol-generator--ic
 
 all: $(OBJECTS)
 
