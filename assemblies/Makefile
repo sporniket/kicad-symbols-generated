@@ -1,4 +1,4 @@
-SUBDIRS := ics assemblies
+SUBDIRS := $(wildcard */.)
 
 all: $(SUBDIRS)
 
