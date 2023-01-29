@@ -23,6 +23,12 @@ Content
 
 ### Release notes
 
+#### v2.2.0
+
+* Resolves #52 : 74HC4040
+* Resolves #53 : GAL16V8
+* Resolves #56 : Raspberry pico RP2040 board
+
 #### v2.1.1
 
 * Fixes #18 : [bugs] Atari ST GLUE description has errors
