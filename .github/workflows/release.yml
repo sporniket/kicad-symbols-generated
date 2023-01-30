@@ -27,8 +27,9 @@ jobs:
       run: make all
       
     - name: Version suffix
-      run: echo "::set-output name=version::$(echo "${{ github.ref_name }}" | cut -c 2-)"
       id: suffix
+      run: echo "version=$(echo "${{ github.ref_name }}" | cut -c 2-)" >> $GITHUB_OUTPUT
+      
     
     - name : Pack
       run: ./build-release.bash ${{ steps.suffix.outputs.version }}
