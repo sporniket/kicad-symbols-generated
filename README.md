@@ -23,6 +23,10 @@ Content
 
 ### Release notes
 
+#### v2.3.0
+
+* Resolves #61 : 74x05
+
 #### v2.2.0
 
 * Resolves #52 : 74HC4040
