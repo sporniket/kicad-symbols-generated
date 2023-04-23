@@ -23,6 +23,10 @@ Content
 
 ### Release notes
 
+#### v2.4.0
+
+* Resolves #62 : 74LS02
+
 #### v2.3.0
 
 * Resolves #61 : 74x05
