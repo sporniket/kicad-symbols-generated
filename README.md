@@ -23,6 +23,12 @@ Content
 
 ### Release notes
 
+#### v2.4.1
+
+* Fixes #63 : [BUG] 27c512 -- pin 8 is input, not ground
+* Fixes #64 : [BUG] ST DMA DIP 40 and PLCC -- pins wrongly marked as 'open collector' instead of 'output'
+* Fixes #65 : [BUG] 74x05 -- outputs should be open collectors
+
 #### v2.4.0
 
 * Resolves #62 : 74LS02
