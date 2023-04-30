@@ -37,10 +37,10 @@
 |19|D15|B3|DATA||
 |20|GND|GND|||
 |21|FDRQ|I|FDCTL|Asserted by the floppy drive controller to request the device data bus|
-|22|/FDCS|OCOL|FDCTL|Asserted to select the floppy drive controller|
+|22|/FDCS|O3|FDCTL|Asserted to select the floppy drive controller|
 |23|HDRQ|I|HDCTL|Asserted by the ACSI device to request the device data bus|
-|24|/HDCS|OCOL|HDCTL|Asserted to select the ACSI devices|
-|25|CR /W|OCOL|DEVCTL|Defines the current device bus cycle as read (high) or a write (low) cycle|
+|24|/HDCS|O3|HDCTL|Asserted to select the ACSI devices|
+|25|CR /W|O3|DEVCTL|Defines the current device bus cycle as read (high) or a write (low) cycle|
 |26|CA1|O3|DRGSEL||
 |27|CA2|O3|DRGSEL||
 |28|GND|GND|||
@@ -52,7 +52,7 @@
 |34|CD2|B3|DEVDATA||
 |35|CD1|B3|DEVDATA||
 |36|CD0|B3|DEVDATA||
-|37|/ACK|OCOL|DEVCTL|Acknowledge to ACSI devices that Data has bean read/written|
+|37|/ACK|O3|DEVCTL|Acknowledge to ACSI devices that Data has bean read/written|
 |38|RDY|O3|SYSCTL|Sent to the Host to request the data bus|
 |39|CLK|ICLK|CLKSYS||
 |40|Vcc|PWR|||
