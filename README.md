@@ -23,6 +23,10 @@ Content
 
 ### Release notes
 
+#### v2.5.0
+
+* Resolves #66 : MC 6821 P
+
 #### v2.4.1
 
 * Fixes #63 : [BUG] 27c512 -- pin 8 is input, not ground
