@@ -23,6 +23,10 @@ Content
 
 ### Release notes
 
+#### v2.5.1
+
+* Fixes #68 : [typo] 74x32 pin 13 named '3B' instead of '4B'
+
 #### v2.5.0
 
 * Resolves #66 : MC 6821 P
