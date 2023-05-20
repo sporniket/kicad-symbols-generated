@@ -23,6 +23,11 @@ Content
 
 ### Release notes
 
+#### v2.6.0
+
+* Resolves #67 : HM7602/7603 32×8 PROM
+* Resolves #69 : M27128A
+
 #### v2.5.1
 
 * Fixes #68 : [typo] 74x32 pin 13 named '3B' instead of '4B'
