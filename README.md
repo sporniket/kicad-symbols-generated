@@ -23,6 +23,10 @@ Content
 
 ### Release notes
 
+#### v2.7.0
+
+* Resolves #70 : [assemblies] ESP32 based Lolin32 lite
+
 #### v2.6.0
 
 * Resolves #67 : HM7602/7603 32×8 PROM
