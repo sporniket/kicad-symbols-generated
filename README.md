@@ -23,6 +23,10 @@ Content
 
 ### Release notes
 
+#### v2.8.0
+
+* Fixes #72 : Gate array v2 thomson -- pin 34 and 36
+
 #### v2.7.0
 
 * Resolves #70 : [assemblies] ESP32 based Lolin32 lite
