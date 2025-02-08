@@ -1,3 +1,14 @@
+#######<[ ADDITIONS TO BASE GITIGNORE ]>######
+tmp.*
+local.*
+# 
+
+# MacOS stuff
+.DS_Store
+
+# VSCode stuff
+.vscode/
+##############################################
 
 # generated libs
 *.lib
