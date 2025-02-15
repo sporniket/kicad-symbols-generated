@@ -23,6 +23,10 @@ Content
 
 ### Release notes
 
+#### v2.9.0
+
+* Resolves #73 : [commons] 27c32 eproms
+
 #### v2.8.0
 
 * Fixes #72 : Gate array v2 thomson -- pin 34 and 36
