@@ -47,7 +47,7 @@
 |31|D2|B|DATA|Databus data|
 |32|D1|B|DATA|Databus data|
 |33|D0|B|DATA|Databus data|
-|34|PAL /NTSC|I|SETUP|NTSC mode (525 lines) when grounded, PAL/SECAM mode (625 lines) when high|
+|34|625 /525|I|SETUP|525 lines when grounded, 625 lines when high|
 |35|GND|GND|||
 |36|UNKNOWN|DNC|UNKNOWN|NC on MO5|
 |37|/CKLP|I|LPEN|Pulse generated using the light pen sensor|
