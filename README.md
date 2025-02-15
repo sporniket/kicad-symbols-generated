@@ -23,6 +23,11 @@ Content
 
 ### Release notes
 
+#### v2.10.0
+
+* Resolves #74 : [thomson]SIPP memory module for MO/TO
+* Fixes #75 : [bug][thomson] Gate array mo5 v2 -- wrong name for pin 34
+
 #### v2.9.0
 
 * Resolves #73 : [commons] 27c32 eproms
