@@ -23,6 +23,10 @@ Content
 
 ### Release notes
 
+#### v2.11.0
+
+* Resolves #76 : ATF1508AS(L) TQFP 100 with JTAG enabled
+
 #### v2.10.0
 
 * Resolves #74 : [thomson]SIPP memory module for MO/TO
