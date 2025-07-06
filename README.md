@@ -23,6 +23,11 @@ Content
 
 ### Release notes
 
+#### v2.12.0
+
+* Resolves #79 : [assemblies] FTDI 232h module, USB-A version
+* Resolves #78 : [assemblies] FTDI 232h module, USB-C version
+
 #### v2.11.0
 
 * Resolves #76 : ATF1508AS(L) TQFP 100 with JTAG enabled
