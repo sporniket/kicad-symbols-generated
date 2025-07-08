@@ -23,6 +23,10 @@ Content
 
 ### Release notes
 
+#### v2.12.1
+
+* [assemblies] Fixed FTDI 232h module, USB-A and USB-C -- using single quotes instead of double quotes
+
 #### v2.12.0
 
 * Resolves #79 : [assemblies] FTDI 232h module, USB-A version
