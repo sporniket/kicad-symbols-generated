@@ -4,7 +4,8 @@ This folder collects separable assemblies, like microcontrollers development boa
 
 ## Content
 
-* `rpi`: Raspberry Pi Foundation's hardware.
-* `esp32` : development board hosting a micro-controller of the ESP32 family by Espressif.
+* `adafruit`: assemblies from [Adafruit](https://www.adafruit.com/).
+* `esp32` : development board hosting a micro-controller of the ESP32 family by [Espressif](https://www.espressif.com/).
+* `muselab`: FPGA modules and accessories by [Muse Lab](https://www.muselab-tech.com/) .
+* `rpi`: [Raspberry Pi Company](https://www.raspberrypi.com/) hardware.
 * `noname`: assemblies without identified manufacturer.
-* `adafruit`: assemblies from Adafruit.
