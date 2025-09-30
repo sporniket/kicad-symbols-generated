@@ -27,6 +27,10 @@ For very old releases :
 * [HISTORY-v2.md](./HISTORY-v2.md)  
 * [HISTORY-v1.md](./HISTORY-v1.md)  
 
+#### v2.14.0
+
+* Revert #72 : there was no error between pin 34 and 36
+
 #### v2.13.0
 
 * Resolves #80 : [ColorLight i9] Connector p1 of the extension board
